@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Patrones y Tablas - Uriel Trejo</title>
+</head>
+<body>
+
+    <h1>Generador de Patrones y Tablas - Uriel Trejo</h1>
+    
+    <label for="cantidad">Pon la cantidad de "X" que se visualizará en la fila y la columna:</label>
+    <input type="number" id="cantidad" min="1" placeholder="Escribe un número">
+    <button onclick="generarPatron()">Generar</button>
+    <pre id="patronSalida"></pre>
+
+    <h2>Cuadrado de 4x4 con "X":</h2>
+    <button onclick="generarCuadrado()">Cuadrado 4x4</button>
+    <pre id="cuadradoSalida"></pre>
+
+    <h2>Tablas de multiplicar del 1 al 10:</h2>
+    <button onclick="generarTablas()">Tablas de Multiplicar</button>
+    <pre id="tablasSalida"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
